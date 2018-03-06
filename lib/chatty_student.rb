@@ -7,7 +7,7 @@ class ChattyStudent < Student
 
   def raise_hand
     10.times do
-      super
+      super #references the raise_hand method in student class to put out "pick me!" 10 times.
     end
   end
 end
